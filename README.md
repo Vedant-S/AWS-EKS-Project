@@ -555,8 +555,8 @@ resource "kubernetes_deployment" "MySql-dep" {
     }
   }
 }
-_________________________________________________________________________________________________________________
 ```
+_________________________________________________________________________________________________________________
 - The following code will create a service that will expose our WordPress container to public world so that clients can connect to it. This will create a LoadBalancer Service in AWS which will provide us an URL by which we can connect to the WordPress.
 _________________________________________________________________________________________________________________
 ```
